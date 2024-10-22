@@ -114,8 +114,8 @@ def main():
     and generate statistics.
     """
     # TODO: Replace with the actual path to your JSONL file
-    input_file = 'datasets/elections/barcelona 2019/bcn19.jsonl'
-    output_dir = 'datasets/elections/barcelona 2019'
+    input_file = 'datasets/******.jsonl'
+    output_dir = 'datasets/******'
 
     print("Processing JSONL file...")
     monthly_tweets, total_tweets, unique_authors, tweets_by_language, first_tweet_date, last_tweet_date = process_jsonl(
